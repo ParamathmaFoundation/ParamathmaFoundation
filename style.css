@@ -365,3 +365,59 @@
   padding: 10px;
 }
 
+@media screen and (max-width: 768px){
+  .topnav{
+    margin: 5px 50px 0px 50px;
+    text-align: center;
+  }
+
+  .topnav-right{
+    float: unset;
+  }
+
+  .topnav .navbar_elements{
+    float: unset;
+  }
+  
+  .center-fit{
+    margin-top: 10.4em;
+  }
+
+  .bct_align, .bct_align_2, .bct_align_3{
+    right: 25px;
+    font-size: 18px;
+  }
+
+  .bct_align{
+    top: 200px;
+  }
+
+  .bct_align_2{
+    top: 220px;
+  }
+
+  .bct_align_3{
+    top: 240px;
+  }
+
+  .quotes_div{
+    padding: 30px 10px;
+  }
+
+  .quotes_div pre{
+    font-size: 20px;
+  }
+
+  .sub_sections{
+    margin: 50px 15px;
+  }
+
+  .email_div{
+    text-align: unset;
+  }
+
+  .email_style{
+    width: 79%;
+  }
+}
+

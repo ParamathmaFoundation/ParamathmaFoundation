@@ -124,7 +124,7 @@
 }
 
 .know_btn_div{
-  margin-top: 15px;
+  margin-top: 5.8em;
 }
 
 .know_more_btn{
@@ -181,6 +181,8 @@
   background: url(images/overlay.png);
   height: 350px;
   margin-top: 50px;
+  position: relative;
+  color: #ffffff;
 }
 
 .impact_img{
@@ -188,10 +190,50 @@
   height: 350px;
 }
 
+.centered{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom_left{
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom_centered{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom_right{
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.counter_no{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.counter_text{
+  font-size: 30px;
+  font-weight: 200;
+}
+
 /* What People Say */
 .people_names{
   text-transform: uppercase;
   color: #8DB8FF !important;
+  font-weight: 500 !important;
 }
 
 /* Donate */
@@ -221,6 +263,7 @@
   width: 25%;
   font-size: 20px;
   border: 1px solid #8DB8FF;
+  font-weight: 500;
 }
 
 /* Join Our Hands */
@@ -246,7 +289,7 @@
 .footer {
   display: flex;
   flex-flow: row wrap;
-  padding: 50px 50px 20px 30px;
+  padding: 50px 146px 20px 30px;
   color: #ffffff;
   background-color: #0A2F6C;
   margin-top: 50px;
@@ -273,6 +316,7 @@
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+  margin-left: 80px;
 }
 
 .nav__title {
@@ -303,11 +347,22 @@
 .footer ul {
   list-style: none;
   padding-left: 0;
-  text-align: center;
 }
 
 .footer li {
   line-height: 2em;
+}
+
+.social{
+  text-align: center;
+}
+
+.about_us, .contact_us{
+  text-align: right;
+}
+
+.about_us{
+  margin-right: 8em !important;
 }
 
 .footer a {
@@ -350,6 +405,20 @@
 
 .nav__ul{
   margin-top: 2em;
+}
+
+.copyright{
+  background-color: #0A244E;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright p{
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 24.375em) {

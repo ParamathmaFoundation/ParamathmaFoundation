@@ -44,7 +44,7 @@
   padding: 16px 0px;
   margin: 0 auto;
   min-width: 320px;
-  width: 1024px;
+  width: 80%;
 }
 
 /* Navbar links */
@@ -62,7 +62,7 @@
 }
 
 .impact_align{
-  padding-right: 0px !important;
+  padding-right: 3px !important;
 }
 
 .banner_center_text{
@@ -142,7 +142,8 @@
   margin: 0 auto;
   min-width: 320px;
   width: 1024px;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .quotes_div p{
@@ -283,6 +284,17 @@
   height: 40px;
   padding: 7px 30px;
   font-size: 20px;
+}
+
+.submit_btn{
+  background-color: #8DB8FF;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 11px;
+  width: 13%;
+  font-size: 20px;
+  border: 1px solid #8DB8FF;
+  font-weight: 500;
 }
 
 /* Footer */
